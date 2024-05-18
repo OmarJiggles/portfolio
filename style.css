@@ -240,6 +240,8 @@ section {
 
 #about {
     position: relative;
+    padding: 2rem 0;
+    height: 700px;
 }
 
 .about-containers {
@@ -249,8 +251,9 @@ section {
 }
 
 .about-details-container {
-    justify-content: center;
     flex-direction: column;
+    padding: 0;
+    height: auto;
 }
 
 .about-containers, .about-details-container {
@@ -288,10 +291,15 @@ section {
     margin: auto 0;
 }
 
+.text-container {
+    font-size: 20px;
+}
+
 /* Experience Section */
 
 #experience {
     position: relative;
+    height: 600px;
 }
 
 .experience-sub-title {
@@ -331,6 +339,7 @@ article .icon {
 
 #projects {
     position: relative;
+    height: 700px;
 }
 
 .color-container {
