@@ -147,7 +147,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 4rem;
     height: 80vh;
 }
 
@@ -159,6 +159,7 @@ section {
 }
 
 .section__text {
+    margin-top: 100px;
     align-self: center;
     text-align: center;
 }
@@ -179,6 +180,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 #socials-container {
@@ -186,6 +188,7 @@ section {
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
+    margin-bottom: 0;
 }
 
 /* Icon */
@@ -240,7 +243,6 @@ section {
 
 #about {
     position: relative;
-    padding: 2rem 0;
     height: 700px;
 }
 
@@ -292,7 +294,7 @@ section {
 }
 
 .text-container {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Experience Section */
